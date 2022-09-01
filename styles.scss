@@ -1,0 +1,35 @@
+$grey: #e3eeee;
+* {
+    // margin: 0;
+    // padding: 0;
+    // box-sizing: border-box;
+}
+body {
+    background-color: $grey;
+
+    button {
+        font-size: 20px;
+
+        &:hover {
+            background-color: yellow;
+        }
+
+        &#btn1:hover {
+            font-size: 20px;
+            background-color: lighten(blue, 30%);
+        }
+
+        &#btn2 {
+            color: red;
+        }
+
+        &#btn3 {
+            background-color: #b3eaea;
+        }
+
+        &#btn4 {
+            color: purple;
+        }
+    }
+
+}

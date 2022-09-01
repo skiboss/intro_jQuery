@@ -1,0 +1,23 @@
+body {
+  /* background-color: #e3eeee; */
+  background-color: red;
+}
+body button {
+  font-size: 20px;
+}
+body button:hover {
+  background-color: yellow;
+}
+body button#btn1:hover {
+  font-size: 20px;
+  background-color: #9999ff;
+}
+body button#btn2 {
+  color: red;
+}
+body button#btn3 {
+  background-color: #b3eaea;
+}
+body button#btn4 {
+  color: purple;
+}/*# sourceMappingURL=styles.css.map */
